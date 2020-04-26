@@ -1,2 +1,3 @@
-console.log("helo bundler index.js");
-module.exports = "hello world.0.";
+const moduleA = require("./moduleA");
+console.log("Index -> moduleA", moduleA);
+// module.exports = "hello world.0.";
